@@ -1,0 +1,12 @@
+# Python
+__pycache__/
+.ipynb_checkpoints/
+
+# Node.js
+node_modules/
+dist/
+
+# OS / IDE
+.DS_Store
+.vscode/
+.env
