@@ -1,0 +1,37 @@
+.datavis-container {
+  padding: var(--spacing-4);
+}
+
+.graph-gallery {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-6);
+}
+
+.graph-item {
+  transition: transform 0.2s ease;
+}
+
+.graph-item:hover {
+  transform: translateY(-2px);
+}
+
+.graph-container {
+  padding: var(--spacing-2);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.graph-image {
+  max-width: 100%;
+  height: auto;
+  border-radius: calc(var(--border-radius) - 2px);
+  box-shadow: var(--shadow-sm);
+}
+
+@media (max-width: 768px) {
+  .graph-container {
+    padding: var(--spacing-1);
+  }
+}

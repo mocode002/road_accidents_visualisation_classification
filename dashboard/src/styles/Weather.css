@@ -1,0 +1,30 @@
+.weather-container {
+  padding: var(--spacing-4);
+}
+
+.metrics-container {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-6);
+}
+
+.weather-metric {
+  transition: transform 0.2s ease;
+}
+
+.weather-metric:hover {
+  transform: translateY(-2px);
+}
+
+.iframe-container {
+  width: 100%;
+  border-radius: calc(var(--border-radius) - 2px);
+  overflow: hidden;
+  background-color: var(--color-surface);
+}
+
+.iframe-container iframe {
+  width: 100%;
+  border: none;
+  display: block;
+}
