@@ -31,3 +31,4 @@ dist-ssr
 .env
 
 Rapport MLDV - VF.pdf
+dashboard/public/accident_locations_scatter.html
