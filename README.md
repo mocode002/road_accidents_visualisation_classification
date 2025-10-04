@@ -47,13 +47,6 @@ npm run dev
 * Weather factors had minimal direct effect on severity.
 * Urban areas and rush hours showed higher accident rates.
 
-## 👥 Contributors
-
-* Mohamed Bouroua
-* Rim Gourram
-* Abdullah Aljabri
-* Soufiane Majdalane
-
 ## 📄 License
 
 This project is licensed under the MIT License.
